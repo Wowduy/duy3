@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Express Hello World on Render",
   "main": "baitaptest1.html",
-  "repository": "",
+  "repository": "https://github.com/Wowduy/duy3.git",
   "author": "Render Developers",
   "license": "MIT",
   "private": false,

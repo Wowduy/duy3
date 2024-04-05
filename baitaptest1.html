@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio nguyen dang duy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            position: relative;
+            display: inline-block;
+        }
+        .header h1::after {
+            content: "_";
+            position: absolute;
+            bottom: -5px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            border-bottom: 2px solid black;
+        }
+        .nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        .nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .product-box {
+            width: calc(33.33% - 20px); /* 33.33% cộng với margin 20px ở mỗi bên */
+            height: 0;
+            padding-top: calc(33.33% - 10px); /* 33.33% cộng với margin 20px ở mỗi bên */
+            background-color: rgb(154,204,120);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            position: relative
+        }
+        
+            .product-box h3 {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    margin: 0; 
+}
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>MY PORTFOLIO</h1>
+    </div>
+    <div class="nav">
+        <ul>
+            <li>All</li>
+            <li>Web App</li>
+            <li>UI/UX</li>
+            <li>Graphics Design</li>
+            <li>Mobile App</li>
+            <li>Branding</li>
+            <li>Marketing</li>
+        </ul>
+    </div>
+    <div class="content">
+        <!-- Thêm 9 ô sản phẩm -->
+        <div class="product-box">
+            <h3>Product 1</h3>
+        </div>
+        <div class="product-box">
+            <h3>Product 2</h3>
+        </div>
+        <div class="product-box">
+            <h3>Product 3</h3>
+        </div>
+        <div class="product-box">
+            <h3>Product 4</h3>
+        </div>
+        <div class="product-box">
+            <h3>Product 5</h3>
+        </div>
+        <div class="product-box">
+            <h3>Product 6</h3>
+        </div>
+        <div class="product-box">
+            <h3>Product 7</h3>
+        </div>
+        <div class="product-box">
+            <h3>Product 8</h3>
+        </div>
+        <div class="product-box">
+            <h3>Product 9</h3>
+        </div>
+    </body>
+    </html>
